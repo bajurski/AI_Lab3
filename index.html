@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+<meta charset="utf-8">
 <style>
     p {
         display: inline-block;
@@ -18,23 +19,22 @@
 </style>
 </html>
 <body>
+<fieldset>
 <legend style="background-color: black; color:white;">Wypełnij formularz</legend>
-<form action="*">
+<form action="values.php" method="POST">
     <label>Imię:</label> <input type="text" name="nazwisko"/>
 </form>
 <form action="*">
     <label>Nazwisko:</label> <input type="text" name="nazwisko"/>
 </form>
 <form action="values.php" method="POST">
-    <fieldset>
         <label>Płeć:</label>
         <input type="radio" name="radio1" value="wartość1"/>
         <label>Mężczyzna</label>
         <input type="radio" name="radio1" value="wartość1"/>
         <label>Kobieta</label>
-    </fieldset>
 </form>
-<form action="*">
+<form action="values.php" method="POST">
     <label>Hasło:</label> <input type="text" name="nazwisko"/>
 </form>
 <form action="*">
